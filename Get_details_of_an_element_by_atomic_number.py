@@ -1,4 +1,6 @@
 from periodictable import*
+
+# Get details of an element by atomic number
 Z=int(input("entre le numero atomique:"))
 element=elements[Z]
 print(f"Z= {element.number}")
